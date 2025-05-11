@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Share+Tech&display=swap");
+@import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background: #201f1f;
+  color: white;
+}
+.text-kanit {
+  font-family: "Kanit", sans-serif;
+}
+.text-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.text-roboto {
+  font-family: "Roboto", sans-serif;
+}
+.text-contact {
+  font-family: "Share Tech", sans-serif;
+}
+.bg-primary-custom {
+  background: #201f1f;
+}
+.bg-footer-custom {
+  background: #151414;
+}
+.bg-hero-color {
+  background: #383838;
+}
+.bg-green-custom {
+  background: #0e7015;
+}
+.text-green-custom {
+  color: #209d0f;
+}
+.mask-blur-edge {
+  -webkit-mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 1) 90%,
+      rgba(0, 0, 0, 0)
+    ),
+    linear-gradient(to right, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0)),
+    linear-gradient(to left, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0)),
+    linear-gradient(to right, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0)),
+    linear-gradient(to left, rgba(0, 0, 0, 1) 90%, rgba(0, 0, 0, 0));
+  -webkit-mask-composite: destination-in;
+  mask-composite: intersect;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  -webkit-mask-size: cover;
+  mask-size: cover;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+.animate-fadeOut {
+  animation: fadeOut 0.3s ease-in forwards;
+}
+.overflow-y-auto::-webkit-scrollbar {
+  width: 8px;
+}
+.overflow-y-auto::-webkit-scrollbar-track {
+  background: #222;
+}
+.overflow-y-auto::-webkit-scrollbar-thumb {
+  background-color: #4a90e2;
+  border-radius: 4px;
+}
+.overflow-y-auto::-webkit-scrollbar-thumb:hover {
+  background-color: #2a4d7f;
+}
