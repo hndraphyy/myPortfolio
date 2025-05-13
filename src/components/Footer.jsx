@@ -1,4 +1,4 @@
-import { Instagram, Mail, Phone } from "lucide-react";
+import { Github, Instagram, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
@@ -30,6 +30,13 @@ export default function Footer() {
               className="flex items-center gap-2 hover:underline"
             >
               <Phone className="w-5 h-5 md:w-6 md:h-6 text-gray-400" />
+            </a>
+            <a
+              href="https://github.com/HendraKae"
+              target="_blank"
+              className="flex items-center gap-2 hover:underline"
+            >
+              <Github className="w-5 h-5 md:w-6 md:h-6 text-gray-400" />
             </a>
           </div>
 
