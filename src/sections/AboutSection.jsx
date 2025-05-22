@@ -10,12 +10,18 @@ export default function About() {
     <section className="pt-10 pb-5 md:pb-35" id="about">
       <div>
         <div className="relative">
-          <h1 className="text-[30px] md:text-5xl text-white font-medium pb-5 md:pb-10">
+          <h1
+            data-aos="fade-up"
+            className="text-[30px] md:text-5xl text-white font-medium pb-5 md:pb-10"
+          >
             About Me
           </h1>
           <div className="w-290 h-[2px] bg-green-custom absolute left-38 md:left-63 top-[25px] md:top-[28px]"></div>
         </div>
-        <p className="text-[16px] md:text-[20px] text-gray-400">
+        <p
+          data-aos="fade-up"
+          className="text-[16px] md:text-[20px] text-gray-400"
+        >
           Hi! I’m Hendra Aditya Pratama, a Frontend Developer who loves creating
           clean and modern websites. I work with HTML, CSS, JavaScript, React,
           and Tailwind CSS — focusing on building simple, fast, and visually
@@ -24,10 +30,16 @@ export default function About() {
           unique website. My goal is simple: to help clients establish a stylish
           and functional online presence.
         </p>
-        <p className="text-[16px] md:text-[20px] text-gray-400 pt-5">
+        <p
+          data-aos="fade-up"
+          className="text-[16px] md:text-[20px] text-gray-400 pt-5"
+        >
           Here are a few technologies I’ve been working with recently:
         </p>
-        <div className="flex justify-start gap-10 md:gap-25 pt-2">
+        <div
+          data-aos="fade-up"
+          className="flex justify-start gap-10 md:gap-25 pt-2"
+        >
           <ul className="text-[16px] md:text-[20px] text-gray-400">
             <li>
               <span className="text-green-custom pr-3">-</span> Html
