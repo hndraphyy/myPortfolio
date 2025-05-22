@@ -2,10 +2,7 @@ import { Github, Instagram, Mail, Phone } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer
-      data-aos="fade-up"
-      className="w-full bg-footer-custom  text-white pt-10 md:pt-20 pb-20 md:pb-10 text-kanit"
-    >
+    <footer className="w-full bg-footer-custom  text-white pt-10 md:pt-20 pb-20 md:pb-10 text-kanit">
       <div className="flex justify-between w-full max-w-[1440px] mx-auto px-3 sm:px-[100px] lg:px-[45px] xl:px-[150px]">
         <div className="flex flex-col gap-2">
           <a className="text-[18px] md:text-3xl font-medium">hendraaditya</a>

@@ -94,11 +94,15 @@ export default function Projects() {
               </span>
             </div>
             <p className="font-light mt-2 text-[18px] text-gray-400">
-              EasyCashier is a Point of Sale (POS) system built for desktop
-              applications using Laravel, Electron, SQL, and DataTables. I
-              handled the frontend, developing the interface with Laravel Blade,
-              Sass, and Bootstrap, featuring product management and professional
-              invoice printing.
+              EasyCashier is a desktop-based Point of Sale (POS) system built
+              using Laravel, Electron, SQL, and DataTables. I was responsible
+              for the frontend, developing interface with Laravel Blade, Sass,
+              and Bootstrap. The application features a sidebar-style dashboard
+              that allows users to manage product listings, handle transactions,
+              add and edit items or units, and print professional invoices.
+              While it doesn't include data visualizations or analytics, the
+              interface is optimized for efficient item and transaction
+              management in a cashier-like workflow.
             </p>
             <div className="flex pt-3 gap-4">
               {/* <a
@@ -242,11 +246,16 @@ export default function Projects() {
                 data-aos="fade-up"
                 className="font-light mt-2 text-[16px] text-gray-400"
               >
-                EasyCashier is a Point of Sale (POS) system built for desktop
-                applications using Laravel, Electron, SQL, and DataTables. I
-                handled the frontend, developing the interface with Laravel
-                Blade, Sass, and Bootstrap, featuring product management and
-                professional invoice printing.
+                EasyCashier is a desktop-based Point of Sale (POS) system built
+                using Laravel, Electron, SQL, and DataTables. I was responsible
+                for the frontend, developing interface with Laravel Blade, Sass,
+                and Bootstrap. The application features a sidebar-style
+                dashboard that allows users to manage product listings, handle
+                transactions, add and edit items or units, and print
+                professional invoices. While it doesn't include data
+                visualizations or analytics, the interface is optimized for
+                efficient item and transaction management in a cashier-like
+                workflow.
               </p>
               <div className="flex pt-3 gap-4">
                 {/* <a
