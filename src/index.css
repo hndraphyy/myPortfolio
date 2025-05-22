@@ -7,7 +7,6 @@ html {
 body {
   background: #201f1f;
   color: white;
-  overflow-y: hidden;
 }
 .text-kanit {
   font-family: "Kanit", sans-serif;
