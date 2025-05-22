@@ -70,7 +70,7 @@ export default function Home() {
           </div>
           <span className="relative">
             <h1 className="text-4xl md:text-6xl md:pl-8 pb-3 md:pb-5 font-light">
-              i'm Hendra
+              I'm Hendra
             </h1>
             <img
               src={lineHero}

@@ -6,6 +6,7 @@ import UrlIcon from "../assets/svg/urlicon.svg";
 import ProjectMobile1 from "../assets/images/projectMobile.png";
 import ProjectMobile2 from "../assets/images/projectMobile2.png";
 import Book from "../assets/svg/book.svg";
+import Project3 from "../assets/images/project3.png";
 
 export default function Projects() {
   return (
@@ -103,6 +104,48 @@ export default function Projects() {
             </div>
           </div>
         </div>
+        <div className="flex flex-col md:flex-row items-center  gap-10">
+          <div className="md:w-1/2 flex  flex-col gap-y-3">
+            <h1 className="text-4xl font-medium">Klinin Laundry</h1>
+            <div className="flex items-center gap-2 ">
+              <span className="px-5 font-light py-1 text-[17px] bg-gray-700 rounded-2xl">
+                React JS
+              </span>
+              <span className="px-5 font-light py-1 text-[17px] bg-gray-700 rounded-2xl">
+                TailwindCSS
+              </span>
+            </div>
+            <p className="font-light mt-2 text-[18px] text-gray-400">
+              Klinin Laundry adalah halaman landing responsif yang dirancang
+              untuk menampilkan layanan laundry profesional. Dibangun
+              menggunakan React, Vite, dan TailwindCSS, proyek ini menekankan
+              desain yang bersih, tata letak modern, dan pengalaman pengguna
+              yang nyaman, mencerminkan keandalan dan kemudahan dari penyedia
+              layanan laundry terpercaya.
+            </p>
+            <div className="flex pt-3 gap-4">
+              <a
+                href="https://klinin-website.vercel.app/"
+                className="bg-green-custom  px-7 py-3 text-center"
+                target="_blank"
+              >
+                Visit Website
+              </a>
+              {/* <a
+                href="#"
+                className="bg-transparent border-green-700 border-1  px-7 py-3 text-center"
+                target="_blank"
+              >
+                Case Study
+              </a> */}
+            </div>
+          </div>
+          <img
+            src={Project3}
+            alt="Project Foral"
+            className="md:w-1/2 object-cover"
+          />
+        </div>
       </div>
       {/* mobile */}
       <div className="flex md:hidden flex-col items-center pt-3 gap-4">
@@ -183,6 +226,50 @@ export default function Projects() {
                 >
                   Visit Website
                 </a> */}
+                {/* <a
+                  href="#"
+                  className="bg-transparent border-green-700 border-1 text-[14px] px-5 py-2 text-center"
+                  target="_blank"
+                >
+                  Case Study
+                </a> */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className=" flex md:hidden flex-col items-center pt-20 gap-30">
+          <div className="flex flex-col md:flex-row items-center md:items-center gap-3 md:gap-7">
+            <img
+              src={Project3}
+              alt="Project Foral"
+              className="md:w-1/2 object-cover"
+            />
+            <div className="md:w-1/2 flex  flex-col gap-y-2 md:">
+              <h1 className="text-[25px] font-medium">Klinin Laundry</h1>
+              <div className="flex items-center gap-2 ">
+                <span className="px-4 font-light py-1 text-[14px] bg-gray-700 rounded-2xl">
+                  React JS
+                </span>
+                <span className="px-4 font-light py-1 text-[14px] bg-gray-700 rounded-2xl">
+                  TailwindCSS
+                </span>
+              </div>
+              <p className="font-light mt-2 text-[16px] text-gray-400">
+                Klinin Laundry adalah halaman landing responsif yang dirancang
+                untuk menampilkan layanan laundry profesional. Dibangun
+                menggunakan React, Vite, dan TailwindCSS, proyek ini menekankan
+                desain yang bersih, tata letak modern, dan pengalaman pengguna
+                yang nyaman, mencerminkan keandalan dan kemudahan dari penyedia
+                layanan laundry terpercaya.
+              </p>
+              <div className="flex pt-3 gap-4">
+                <a
+                  href="https://klinin-website.vercel.app/"
+                  className="bg-green-custom  px-5 py-2 text-center text-[14px]"
+                  target="_blank"
+                >
+                  Visit Website
+                </a>
                 {/* <a
                   href="#"
                   className="bg-transparent border-green-700 border-1 text-[14px] px-5 py-2 text-center"
