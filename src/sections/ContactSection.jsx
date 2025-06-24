@@ -22,7 +22,9 @@ export default function Contact() {
       </p>
       <a
         data-aos="fade-up"
-        href="mailto:hendraaditya1913@gmail.com"
+        // href="mailto:hendraaditya1913@gmail.com"
+        href="https://wa.link/8qxinn"
+        target="_blank"
         className="px-7 py-2 md:px-10 md:py-4 md:mt-5 text-[20px] md:text-3xl bg-green-custom text-white hover:bg-green-900 transition duration-300 ease-in-out"
       >
         Say Hello
