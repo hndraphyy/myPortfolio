@@ -42,7 +42,7 @@ export default function About() {
         >
           <ul className="text-[16px] md:text-[20px] text-gray-400">
             <li>
-              <span className="text-green-custom pr-3">-</span> Html
+              <span className="text-green-custom pr-3">-</span>Html
             </li>
             <li>
               <span className="text-green-custom pr-3">-</span>CSS
