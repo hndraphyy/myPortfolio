@@ -51,7 +51,7 @@ export default function About() {
               <span className="text-green-custom pr-3">-</span>JavaScript
             </li>
             <li>
-              <span className="text-green-custom pr-3">-</span>React JS
+              <span className="text-green-custom pr-3">-</span>React js
             </li>
           </ul>
           <ul className="text-[18px] md:text-[20px] text-gray-400">
@@ -63,7 +63,10 @@ export default function About() {
               <span className="text-green-custom pr-3">-</span>TailwindCSS
             </li>
             <li>
-              <span className="text-green-custom pr-3">-</span>Laravel
+              <span className="text-green-custom pr-3">-</span>Laravel Blade
+            </li>
+            <li>
+              <span className="text-green-custom pr-3">-</span>Next js
             </li>
           </ul>
         </div>
