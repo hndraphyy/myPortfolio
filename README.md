@@ -1,12 +1,43 @@
-# React + Vite
+# 💼 Hendra Aditya – Front-End Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal portfolio website!  
+This site is a showcase of my work, skills, and passion as a front-end developer.  
+Built with clean UI/UX, responsive layout, and modern web technologies.
 
-Currently, two official plugins are available:
+🔗 **Live Website:** [https://hendraaditya.vercel.app](https://hendraaditya.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 📌 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- ⚡ Fast and optimized with Vite
+- 🌙 Minimal and modern UI with smooth transitions
+- 💻 Project showcase with descriptions and live links
+- 📱 Fully responsive on all devices
+- 📬 Contact form for quick reach-out
+
+---
+
+## 🛠️ Tech Stack
+
+- **Languages:** HTML, CSS, JavaScript
+- **Framework:** React (with [Vite](https://vitejs.dev/))
+- **Styling:** Tailwind CSS
+- **Deployment:** Vercel
+
+> Built using React and Vite as a learning step before diving into more advanced frameworks like Next.js.
+
+---
+
+## 👨‍💻 About Me
+
+Hi! I’m **Hendra Aditya**, a front-end developer based in Indonesia 🇮🇩  
+I enjoy building clean, user-friendly websites and continuously learning new tools and frameworks.  
+Currently open to internship, freelance, or collaboration opportunities.
+
+---
+
+## 📫 Contact
+
+- 📧 Email: hendraaditya1913@gmail.com
+- 🔗 LinkedIn: [linkedin.com/in/hendraaditya](https://www.linkedin.com/in/hendraadityapratama/)
